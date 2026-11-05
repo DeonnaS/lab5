@@ -69,7 +69,7 @@ def length(n):
         return 1
     return 1 + length(c(n))
 
-# Largest number in the Collatz sequence from n >= 1
+
 @lru_cache(maxsize=None)
 def peak(n):
     # the base case, then the recursive case (replace return 0)
