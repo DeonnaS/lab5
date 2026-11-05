@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 """
 Deonna Shapley
-YOUR STUDENT ID HERE
+
 
 ASSIGNMENT: COMPLETE length, peak, champion, and pmf_cdf below
 """
