@@ -65,17 +65,13 @@ length(6) is 9 and peak(6) is 16
 @lru_cache(maxsize=None)
 def length(n):
     # the base case, then the recursive case (replace return 0)
-    if n == 1:
-        return 1
-    return 1 + length(c(n))
+    return 0
 
 # Largest number in the Collatz sequence from n >= 1
 @lru_cache(maxsize=None)
 def peak(n):
     # the base case, then the recursive case (replace return 0)
-    if n == 1:
-        return 1
-    return max(n, peak(c(n)))
+    return 0
 
 """
 COMPLETE (#2):
